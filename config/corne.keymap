@@ -52,8 +52,9 @@
         // | CTRL |   ? |     |     |     |     |   |  -  |  *  |  [  |  ]  |  \  |  `   |
         // | <    |   > |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
         //                    | GUI | LWR | SPC |   | ENT | RSE | ALT |
-                                display-name = "Symbols";
+                                
         raise_layer {
+            display-name = "Symbols";
             bindings = <
 &kp ESC    &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPS   &kp SLASH  &kp LPAR  &kp RPAR  &kp EQUAL  &kp DEL
 &kp LCTRL  &kp QMARK  &none   &none     &none     &none        &kp MINUS  &kp ASTRK  &kp LBKT  &kp RBKT  &kp BSLH   &kp GRAVE
