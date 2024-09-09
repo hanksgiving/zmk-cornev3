@@ -39,6 +39,10 @@
     };
 };
 
+&led_strip {
+    chain-length = <27>;
+};
+
 / {
     chosen {
         zmk,underglow = &led_strip;
